@@ -1,3 +1,3 @@
-# sink-ctrl
+# Sink Control
 Employees turn on the sink and forget to turn it off after it is full resulting in wastage of hot water / sanitizer fluid. This firmware controls a microcontroller - servo set up that turns off the flow after a predefined period of time has elapsed. The period is burned on to the firmware.
 The firmware is capable of controlling two servos - one for the washer sink and the other for the sanitizer sink. Only one of them will operate at any given time, thus simplifying the design. When the user presses the button, a capacitive touch sensor registers the press and starts the timer on the MCU.
